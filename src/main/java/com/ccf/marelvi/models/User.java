@@ -1,11 +1,26 @@
 package com.ccf.marelvi.models;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("user")
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.data.annotation.Id;
+
+
+@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
+
     @Id
-    private String articleId;
+    private String id;
     
-    private String articleTitle;
+    private String name;
+
+    public User(String name){
+        this.name = name;
+    }
 }
