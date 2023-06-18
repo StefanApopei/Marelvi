@@ -1,22 +1,16 @@
 package com.ccf.marelvi.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/user")
-public class UserController {
+@RequestMapping("/project")
+public class ProjectController {
+    
 
-    @GetMapping("/login")
-    public String login() {
+    @PostMapping("/create")
+    public String createProject() {
         return "First endpoint";
     }
-
-    @PostMapping("/register")
-    public String register() {
-        return "First endpoint";
-    }
-
 }
