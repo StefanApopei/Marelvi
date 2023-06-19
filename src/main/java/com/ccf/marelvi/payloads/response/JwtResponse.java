@@ -1,7 +1,5 @@
 package com.ccf.marelvi.payloads.response;
 
-import com.ccf.marelvi.models.Role;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
