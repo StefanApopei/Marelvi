@@ -1,3 +1,7 @@
+## Requirements:
+Maven: apache-maven-3.9.2
+Java version: 17.0.7
+
 ## To run the project in VsCode
 Extensions:
 - Lombok Annotations Support for VS Code
@@ -35,3 +39,7 @@ Body:
     "username": "test",
     "password": "test"
 }
+
+# Relevant links for documentation:
+Security:
+https://github.com/spring-projects/spring-data-examples/tree/main/rest/security
